@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box ;
+    
+}
+
+
+/* HEADERR */
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #161414;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: fixed;
+}
+
+.name-logo{
+width: 50%;
+margin-left: 4.5rem;
+display: flex;
+justify-content: flex;
+font-size: 2rem;
+color: white;
+}
+.xein{
+    padding-left: 40px;
+    color: white;
+    text-decoration: none   ;
+}
+
+.barra-navegacion{
+
+    width: 28%;
+    margin: 9em;
+    display: flex;
+    justify-content:space-around ;
+
+    font-size: 1.1rem;
+}
+
+.barra-navegacion a{
+    text-decoration: none;
+    color: white;
+}
+
+/*FINALIZA HEADER */
+
+
+
+/*iNICIA IMAGEN PRINCIPAL MENU */
+
+.section-main{
+    width: 100%;
+    height: 100vh;
+}
+
+.background__section-main{
+    height: 100%;
+    width: 100%;
+    background-image: url(assets/pexels-partha-sekhar-borah-1988624.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+}
+
+.title-principal
+{
+    color: white;
+    font-size: 3.4rem;
+    text-align: center;
+    margin-left: 6rem;
+    margin-top: 6rem;
+}
+
+
+
+/*  reserva mesa inicia*/
+
+.reserva-mesa{
+    width: 100%;
+    height: 70vh;
+    background-color: #181e21;
+    margin-top: 200px;
+}
+
+.contenedor-reserva{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px;
+    padding-top: 100px;
+    color: white;
+    width: 50%;
+}
+
+.reserva-title{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 4rem;
+}
+.reserva-paragraph{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+}
+
+.contenedor-link{
+    width: 9rem;
+    height: 3rem;
+    border: 1px solid black;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.reserva-link{
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: black;
+}
+
+
+ /* finaliza reserva mesa*/
+
+
+ /* sesion article de menu one*/
+
+
+ .article_menu-one{
+     width: 100%;
+     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   }
+.article_menu-two{
+    width: 100%;
+    height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    margin-top: 100px;
+    margin-bottom: 200px
+  }
+
+   .container--menu__one{
+    width: 90%;
+    height: 220px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   }
+
+   .title-menu_one{
+       font-size: 3rem;
+   }
+
+
+ .container_menu-one{
+     width: 90%;
+     height: 100%;
+     background-color: white;
+
+     display: grid;
+    grid-template-rows:   1fr 1fr 1fr;
+    grid-template-columns:  1fr 1fr;
+    grid-gap: 100px;
+ }
+
+
+.platico{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.container--titulo_precio{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    width: 80%;
+}
+.description-one{
+    line-height: 30px;
+    font-size: 1.1rem;
+
+}
+
+.plato-one{
+    grid-column: 1/2;
+    grid-row: 1/2;
+   
+}
+
+.plato-two{
+    grid-column: 2/3;
+    grid-row: 1/2;
+   
+}
+.plato-three{
+    grid-column: 1/2;
+    grid-row: 2/3;
+  
+}
+.plato-fourth{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.plato-five{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.plato-six{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+
+
+
+/* sesion article de menu one*/
+
+/*footer inicia */
+
+
+/*  FOOTER */
+
+.footer{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+
+}
+
+.container-footer{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-p1{
+    padding-bottom: 2rem;
+    line-height: 2rem;
+    font-size: 1.1rem;
+}
+.right-p2{
+    font-size: 1.1rem;
+    padding-top: 2rem;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.left-title{
+    font-size: 1.8rem;
+}
+.left-p1
+{
+    font-size: 1.2rem;
+}
+.left-p2{
+    font-size: 1.2rem;
+
+}
+.left-p3{
+    font-size: 1.2rem;
+
+}
+
+/* finaliza footer*/
