@@ -7,4 +7,4 @@ css grid y flexbox
 
 
 Pagina restaurante.
-https://xein-dev.github.io/ZafiroRestaurante/index.html
+https://Suarez-dev.github.io/ZafiroRestaurante/index.html
